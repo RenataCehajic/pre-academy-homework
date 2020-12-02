@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0; 
+} 
+
+body {
+    background-image: url('../images/cerknica-lake.jpg');
+    height: 120vh;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+h1 {
+    font-size: 60px; 
+}
+
+#title {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 0%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+h3 {
+    font-size: 15px; 
+}
+
+p {
+    margin-top: 10%; 
+    font-size: 18px;
+}
+
+#a:hover {
+    color: #f5f0ed; 
+}
+
+#c:hover {
+    color: #f5f0ed; 
+    font-style: italic; 
+}
+
+#one {
+    width: 600px; 
+    height: 786px; 
+    background: #b5838d;
+    position: absolute;
+    right: 0px;
+    padding: 40px; 
+    text-align: center; 
+    margin: auto; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ #two {
+    width: 100px; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20px; 
+    margin-bottom: 0; 
+    font-family: 'Josefin Sans', sans-serif; 
+} 
+
+.img {
+    width: 200px; 
+    border-radius: 50%;
+}
+
+#hobbies {
+    font-size: 25px; 
+    margin-top: 5%;
+    text-transform: uppercase; 
+}
+
+#run1 {
+    font-size: 18px; 
+}
+
+#tra {
+     font-size: 18px; 
+}
+
+#wal {
+    font-size: 18px; 
+}
+
+.travel {
+    margin-top: -200px; 
+    margin-right: 500px; 
+}
+
+.run {
+    margin-left: 450px; 
+    margin-top: 10%; 
+}
+
+.walk { 
+    margin-bottom: 0; 
+    margin-right: 80px; 
+}
+
+#c {
+    font-size: 25px; 
+    margin-top: 10%;
+}
+
+#img1 {
+    margin-top: 5%; 
+    width: 150px; 
+    border-radius: 20% 60% 65% 35% / 80% 47% 53% 20%;
+}
+
+#img2 {
+    width: 200px;
+	border-radius: 57% 43% 65% 35% / 13% 47% 53% 87%;
+}
+
+#img3 {
+    width: 200px; 
+	border-radius: 85% 15% 65% 35% / 13% 18% 82% 87%;
+}
